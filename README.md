@@ -41,13 +41,23 @@ The dataset comprises video footage of trucks and trailers. Data preparation scr
 
 ---
 
+## Data Format and Structure
+The dataset comprises video footage of trucks and trailers. Data preparation scripts include tools for splitting the dataset into training, validation, and testing subsets.
+
+### Dataset Directory Structure
+
+dataset(images+lables)/
+├── images+lables/
+  ├── train/     # Training images+labels
+  ├── val/       # Validation images+labels
+  └── test/      # Test images+labels
+
+---
+
 ## Installation
 
 Before running the project, install the required packages:
 
-```bash
-pip install pandas numpy torch torchvision yolo opencv-python ultralytics PIL glob2
----
 ## Package Versions
 
 The following package versions were used in this project:
@@ -64,15 +74,6 @@ The following package versions were used in this project:
 | `tornado`            | 6.3.2        |
 | `numpy`              | 1.26.4       |
 
-## Data Format and Structure
-The dataset comprises video footage of trucks and trailers. Data preparation scripts include tools for splitting the dataset into training, validation, and testing subsets.
-
-### Dataset Directory Structure
-
-dataset(images+lables)/
-├── images+lables/
-  ├── train/     # Training images+labels
-  ├── val/       # Validation images+labels
-  └── test/      # Test images+labels
-
+```bash 
+pip install pandas numpy torch torchvision yolo opencv-python ultralytics PIL glob2
 
