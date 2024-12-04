@@ -45,7 +45,6 @@ The dataset comprises video footage of trucks and trailers. Data preparation scr
 The dataset comprises video footage of trucks and trailers. Data preparation scripts include tools for splitting the dataset into training, validation, and testing subsets.
 
 ### Dataset Directory Structure
-
 -dataset(images+lables)/
 -**images+lables/**
   -train/     # Training images+labels
