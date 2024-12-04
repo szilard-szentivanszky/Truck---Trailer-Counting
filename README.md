@@ -47,10 +47,10 @@ The dataset comprises video footage of trucks and trailers. Data preparation scr
 ### Dataset Directory Structure
 
 -dataset(images+lables)/
--**├── images+lables/**
-  *-├── train/     # Training images+labels*
-  -├── val/       # Validation images+labels
-  -└── test/      # Test images+labels
+-**images+lables/**
+  -train/     # Training images+labels
+  -val/       # Validation images+labels
+  -test/      # Test images+labels
 
 ---
 
