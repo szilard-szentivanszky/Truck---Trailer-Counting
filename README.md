@@ -47,7 +47,7 @@ Before running the project, install the required packages:
 
 ```bash
 pip install pandas numpy torch torchvision yolo opencv-python ultralytics PIL glob2
-
+---
 ## Package Versions
 
 The following package versions were used in this project:
