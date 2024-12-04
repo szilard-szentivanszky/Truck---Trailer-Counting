@@ -46,17 +46,13 @@ The dataset comprises video footage of trucks and trailers. Data preparation scr
 
 ### Dataset Directory Structure
 
-dataset(images+lables)/
-├── images+lables/
-  ├── train/     # Training images+labels
-  ├── val/       # Validation images+labels
-  └── test/      # Test images+labels
+-dataset(images+lables)/
+-├── images+lables/
+  -├── train/     # Training images+labels
+  -├── val/       # Validation images+labels
+  -└── test/      # Test images+labels
 
 ---
-
-## Installation
-
-Before running the project, install the required packages:
 
 ## Package Versions
 
@@ -73,6 +69,12 @@ The following package versions were used in this project:
 | `torchvision`        | 0.15.2+cu117 |
 | `tornado`            | 6.3.2        |
 | `numpy`              | 1.26.4       |
+
+---
+
+## Installation
+
+Before running the project, install the required packages:
 
 ```bash 
 pip install pandas numpy torch torchvision yolo opencv-python ultralytics PIL glob2
